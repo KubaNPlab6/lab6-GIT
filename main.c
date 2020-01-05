@@ -14,4 +14,20 @@ int main() {
     printf("enter operator\n");
     scanf(" %c",&operator);
 
+    switch (operator) {
+        case '+':
+            printf("%d+%d=%d\n",num1,num2,num1+num2);
+            break;
+        case '-':
+            printf("%d-%d=%d\n",num1,num2,num1-num2);
+            break;
+        case '*':
+            printf("%d*%d=%d\n",num1,num2,num1*num2);
+            break;
+        case '/':
+            printf("%d/%d=%d\n",num1,num2,num1/num2);
+            break;
+        default:            //dla przypadku w ktorym zadny z powyższych przykladów nie pasuje
+            printf("Error operator nie jest prawidłowy");
+            break;
 }
