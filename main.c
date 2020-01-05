@@ -30,4 +30,5 @@ int main() {
         default:            //dla przypadku w ktorym zadny z powyższych przykladów nie pasuje
             printf("Error operator nie jest prawidłowy");
             break;
+            return 0;
 }
