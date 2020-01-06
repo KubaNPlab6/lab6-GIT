@@ -1,12 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-void dzielenie() {
- 	int a, b, c;
-	printf("Podaj pierwsza liczbe: ");
-	scanf("%d", &a);
-	printf("Podaj druga liczbe: ");
-	scanf("%d", &b);
- 	c=a/b;
- 	printf("Wynik dzielenia %d / %d = %d", a, b, c);
+void dzielenie(float a, float b) {
+ 	float c=a/b;
+ 	printf("Wynik dzielenia %f / %f = %f", a, b, c);
  }
