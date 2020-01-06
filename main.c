@@ -3,7 +3,7 @@ int main()
 {
 
 int main() {
-    int num1, num2;
+    float num1, num2;
     char operator;
     
     printf("enter 1st number\n");
