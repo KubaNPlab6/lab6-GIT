@@ -4,7 +4,8 @@
 int main()
 {
 
-int main() {
+int main() 
+{
     float num1, num2;
     char operator;
     
@@ -16,7 +17,8 @@ int main() {
     printf("enter operator\n");
     scanf(" %c",&operator);
 
-    switch (operator) {
+    switch (operator) 
+    {
         case '+':
             printf("%d+%d=%d\n",num1,num2,dodawanie(num1,num2));
             break;
@@ -33,4 +35,5 @@ int main() {
             printf("Error operator nie jest prawidłowy");
             break;
             return 0;
+     }      
 }
