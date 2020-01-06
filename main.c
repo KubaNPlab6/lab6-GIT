@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include "add.h"
+#include "subtraction.h"
 int main()
 {
 
@@ -16,10 +18,10 @@ int main() {
 
     switch (operator) {
         case '+':
-            printf("%d+%d=%d\n",num1,num2,num1+num2);
+            printf("%d+%d=%d\n",num1,num2,dodawanie(num1,num2));
             break;
         case '-':
-            printf("%d-%d=%d\n",num1,num2,num1-num2);
+            printf("%d-%d=%d\n",num1,num2,odejmowanie(num1,num2));
             break;
         case '*':
             printf("%d*%d=%d\n",num1,num2,num1*num2);
