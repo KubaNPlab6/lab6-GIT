@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "add.h"
 #include "subtraction.h"
-int main()
-{
+#include "dzielenie.c"
+#include "mnozenoe.c"
 
 int main() 
 {
@@ -26,10 +26,10 @@ int main()
             printf("%d-%d=%d\n",num1,num2,odejmowanie(num1,num2));
             break;
         case '*':
-            printf("%d*%d=%d\n",num1,num2,num1*num2);
+           mnozenie(num1,num2);
             break;
         case '/':
-            printf("%d/%d=%d\n",num1,num2,num1/num2);
+            dzielenie(num1,num2)
             break;
         default:            //dla przypadku w ktorym zadny z powyższych przykladów nie pasuje
             printf("Error operator nie jest prawidłowy");
