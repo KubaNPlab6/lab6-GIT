@@ -1,18 +1,14 @@
 #include <stdio.h>
 #include "add.h"
 #include "subtraction.h"
-int main()
-{
+#include "mnozenie.c"
+#include "dzielenie.c"
+
 
 int main() 
 {
-    float num1, num2;
     char operator;
-    
-    printf("enter 1st number\n");
-    scanf("%d",&num1);
-    printf("enter 2nd number\n");
-    scanf("%d",&num2);
+
     
     printf("enter operator\n");
     scanf(" %c",&operator);
